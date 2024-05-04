@@ -1,13 +1,13 @@
 - streamFormat: mp4
-  url: http://192.168.1.193:5000/video/earth.mp4
+  url: http://192.168.1.123:5000/video/earth.mp4
   title: As the World Turns
   description: Watch the drama unfold as the world turns.
 - streamFormat: mp4
-  url: http://192.168.1.193:5000/video/mouse.mp4
+  url: http://192.168.1.123:5000/video/mouse.mp4
   title: Mouse in the House
   description: There's a mouse in the house!
 - streamFormat: mp4
-  url: http://192.168.1.193:5000/video/test.mp4
+  url: http://192.168.1.123:5000/video/test.mp4
   title: Test Pattern
   description: This station is currently off the air
 # Add more content items as needed
