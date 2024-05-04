@@ -1,7 +1,23 @@
 from flask import Flask, render_template, Response
 import os
+import yaml
+import json
+from typing import Dict, List, Union
 
 app = Flask(__name__)
+
+
+def read_yaml(file_path) -> Union[Dict, List]:
+    """Read the specified file and return as a dictionary or list."""
+    with open(file_path, "r") as f:
+        return yaml.safe_load(f)
+
+
+@app.route("/media.json")
+def media():
+    file = "media_content.yaml"
+    media_list = read_yaml(file)
+    return json.dumps(media_list)
 
 
 @app.route("/")
