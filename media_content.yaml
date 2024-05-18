@@ -1,4 +1,12 @@
 - streamFormat: mp4
+  url: http://192.168.1.123:5000/video/copperhill.mp4
+  title: Copperhill
+  description: Day at the races
+- streamFormat: mp4
+  url: http://192.168.1.123:5000/video/riddleofthering.mp4
+  title: Riddle of the Ring
+  description: Game overview
+- streamFormat: mp4
   url: http://192.168.1.123:5000/video/earth.mp4
   title: As the World Turns
   description: Watch the drama unfold as the world turns.
