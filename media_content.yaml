@@ -3,6 +3,10 @@
   title: Copperhill
   description: Day at the races
 - streamFormat: mp4
+  url: http://192.168.1.123:5000/video/riddle720.mp4
+  title: Riddle of the Ring 720
+  description: Game overview
+- streamFormat: mp4
   url: http://192.168.1.123:5000/video/riddleofthering.mp4
   title: Riddle of the Ring
   description: Game overview
