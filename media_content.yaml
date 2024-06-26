@@ -1,4 +1,8 @@
 - streamFormat: mp4
+  url: http://192.168.1.123:5000/video/tnrusa2024.mp4
+  title: Tennessee USA Rally 2024
+  description: Let's Rally!
+- streamFormat: mp4
   url: http://192.168.1.123:5000/video/copperhill.mp4
   title: Copperhill
   description: Day at the races
